@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start ATLauncher
+/usr/bin/atlauncher "$@"
