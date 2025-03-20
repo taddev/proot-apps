@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/linuxserver/proot-apps:debian-bookworm AS rootfs
 ARG REPO
 
 # Install packages
@@ -12,7 +12,7 @@ RUN \
     desktop-file-utils && \
   echo "**** download at-launcher ****" && \
   curl -o \
-    /tmp/atluancher.deb -L \
+    /tmp/atlauncher.deb -L \
     "https://atlauncher.com/download/deb" && \
   dpkg -i /tmp/atlauncher.deb && \
   echo "**** desktop file ****" && \
