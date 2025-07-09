@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Nextcloud Desktop
-QTWEBENGINE_DISABLE_SANDBOX=1 /opt/nextcloud/AppRun "$@"

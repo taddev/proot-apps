@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start FreeCAD
-QTWEBENGINE_DISABLE_SANDBOX=1 freecad "$@"

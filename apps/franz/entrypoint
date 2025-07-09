@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Franz
-franz --no-sandbox "$@"

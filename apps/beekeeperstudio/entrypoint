@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Beekeeper Studio
-beekeeper-studio --no-sandbox "$@"
