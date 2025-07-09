@@ -79,7 +79,8 @@ proot-apps update firefox
 
 | Name | Full Endpoint | Arch | Description |
 | :----: | :----: | :----: |--- |
-| ATLauncher | ghcr.io/taddev/proot-apps:atlaunhcer | linux/amd64 | ATLauncher is a simple and easy to use Minecraft launcher which contains many different modpacks for you to choose from and play. |
+| atlauncher | ghcr.io/taddev/proot-apps:atlauncher | linux/amd64 | ATLauncher is a launcher for Minecraft which integrates multiple different modpacks to allow you to download and install modpacks easily and quickly.|
+
 
 </details>
 
