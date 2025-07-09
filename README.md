@@ -14,7 +14,7 @@ PRoot Apps is a simple platform to install and use applications without any priv
 ```
 rm -f $HOME/.local/bin/{ncat,proot-apps,proot,jq}
 mkdir -p $HOME/.local/bin
-curl -L https://github.com/linuxserver/proot-apps/releases/download/$(curl -sX GET "https://api.github.com/repos/linuxserver/proot-apps/releases/latest" | awk '/tag_name/{print $4;exit}' FS='[""]')/proot-apps-$(uname -m).tar.gz | tar -xzf - -C $HOME/.local/bin/
+curl -L https://github.com/taddev/proot-apps/releases/download/$(curl -sX GET "https://api.github.com/repos/taddev/proot-apps/releases/latest" | awk '/tag_name/{print $4;exit}' FS='[""]')/proot-apps-$(uname -m).tar.gz | tar -xzf - -C $HOME/.local/bin/
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
@@ -57,7 +57,7 @@ The files for Firefox will be installed to a folder in `$HOME/proot-apps/`, Desk
 These short named apps are available from the supported list below, but any app can be consumed from a Docker endpoint IE:
 
 ```
-proot-apps install ghcr.io/linuxserver/proot-apps:firefox
+proot-apps install ghcr.io/taddev/proot-apps:firefox
 ```
 
 To remove the application:
@@ -80,7 +80,6 @@ proot-apps update firefox
 | Name | Full Endpoint | Arch | Description |
 | :----: | :----: | :----: |--- |
 | ATLauncher | ghcr.io/taddev/proot-apps:atlaunhcer | linux/amd64 | ATLauncher is a simple and easy to use Minecraft launcher which contains many different modpacks for you to choose from and play. |
-
 
 </details>
 
