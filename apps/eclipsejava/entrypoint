@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Eclipse Java
-/opt/eclipse/eclipse "$@"
